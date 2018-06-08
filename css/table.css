@@ -1,0 +1,384 @@
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+
+
+.project {
+    visibility: visible!important;
+    position: static!important;
+}
+
+
+
+
+
+.innerImagesDivAllInfo {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.innerImagesEditPage {
+    position: relative;
+}
+
+
+.addSliderImagesInput {
+    display: none!important;
+}
+
+.addSlierImagesIcon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.addMoreImagesDiv {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.innerImagesForm, .innerImagesEditPage {
+    height: 200px;
+    float: left;
+    margin: 20px 11.5px;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 9px;
+    box-sizing: border-box;
+}
+
+.innerImagesForm {
+    width: 300px;
+}
+
+.innerImagesForm form {
+    height: 45px;
+}
+
+textarea {
+    resize: none;
+}
+
+.projectsTable, .addMoreTable, .infoTable {
+    background-color: white;
+    width: 1200px;
+    text-align: left;
+    display: table;
+    border-collapse: collapse;
+}
+
+
+.projectsTable button, .infoTable button  {
+    background: transparent;
+}
+.tablePart {
+    display: table-cell;
+    border: 1px solid #d6d6d6;
+    vertical-align: top;
+}
+.tableTitle {
+    border-bottom: 1px solid #d6d6d6;
+    background: #216288;
+    color: #ffffff;
+}
+
+.tableTitle, .tableContent {
+    padding: 5px 6px;
+    font-size: 14px;
+}
+.tableContent {
+    height: 110px;
+}
+.tablePartTexts {
+    width: 120px;
+}
+.tablePartTexts textarea {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.tablePartImages {
+    width: 120px;
+}
+.bgImages {
+    width: 100%;
+    height: 28px;
+    margin-bottom: 5px;
+}
+.tablePartIcons {
+    width: 44px;
+}
+.tablePartIcons .tableContent span {
+    display: block;
+    text-align: center;
+    margin: 8px;
+}
+.categoryTd {
+    vertical-align: top;
+    text-align: left;
+}
+
+
+.tablePartCategories {
+    width: 160px;
+}
+.colorTitle {
+    display: inline-block;
+    width: 135px;
+}
+.colorTitle span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    margin: 3px 5px 3px 4px;
+}
+label {
+    font-weight: 300;
+    word-wrap: break-word;
+    display: inline;
+}
+
+.custom-select {
+    background: #FFF url(../images/icons/downward-arrow.png) no-repeat center right 10px;
+    display: inline-block;
+    padding: 5px 15px;
+    border: 1px solid #d6d6d6;
+    width: 100%;
+    cursor: pointer;
+    margin: 3px 5px 3px 0;
+}
+
+.custom-select-option-box {
+    background: #FFF;
+    border: 1px solid #d6d6d6;
+    position: absolute;
+    z-index: 3;
+    display: none;
+    width: 155px;
+}
+
+.custom-select-option, .addCategory {
+    padding: 7px 0 7px 8px;
+}
+
+
+
+
+
+
+
+
+
+.infoTable {
+    width: 600px;
+    font-size: 13px;
+}
+.infoTable label{
+    width: 100px!important;
+}
+.infoTable .colorTitle{
+    width: 85px;
+}
+
+.infoTable .tableContent{
+    height: auto;
+    display: inline-block;
+}
+.colorContainerInline .tableContent {
+    padding: 0;
+}
+
+.colorContainerInlineBig .colorTitle {
+    width: 110px;
+}
+.colorContainerInline {
+    float: left;
+    margin: 5px 10px;
+}
+
+
+
+
+
+.innerImagesSliderDiv {
+    position: relative;
+    margin: 30px 5px 10px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+/*
+label{
+  padding: 10px;
+  background: red;
+  display: table;
+  color: #fff;
+}
+
+*/
+
+input[type="file"] {
+  display: none;
+}
+
+.inputfile {
+   width: 0.1px;
+   height: 0.1px;
+   opacity: 0;
+   overflow: hidden;
+   position: absolute;
+   z-index: -1;
+}
+
+.inputfile + label, .addVideoInput {
+    width: 195px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 13px;
+    overflow: hidden;
+}
+.mainInfoForm .inputfile + label {
+    width: 120px;
+    padding: 3px 12px;
+}
+.addVideoInput {
+    border: 1px solid #d6d6d6;
+}
+
+
+
+
+
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+
+/* style 1 */
+
+.inputfile-1 + label {
+    color: #f4f0ff;
+    background-color: #2b2838;
+}
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover {
+    background-color: #14121b;
+}
+.hasInput label {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-style-9 {
+    border-bottom: 1px solid #d6d6d6;
+    padding: 5px;
+    margin: 1px 0;
+}
+
+.form-style-9 input[type="button"],
+.form-style-9 input[type="submit"], .addMore, .goToInnerPageButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+    background-color: #216288;
+    border: 1px solid #17445E;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 3px 12px;
+    text-decoration: none;
+    float: right;
+    font-size: 13px;
+    border-radius: 1px;
+}
+
+.form-style-9 input[type="button"]:hover,
+.form-style-9 input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+    background-color: #28739E;
+}
+
+.addMore, .goToInnerPageButton {
+    margin-top: 6px;
+}
+.goToInnerPageButton {
+    margin-right: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-group-addon {
+    padding: 4px 4px;
+}
+
+.input-lg {
+    height: 26px;
+    padding: 4px 9px;
+}
+.input-group .form-control {
+    width: 70px;
+    font-size: inherit;
+}
+.input-group {
+    display: inline-block;
+}
+.input-group-addon{
+    float: left;
+    width: 25px;
+}

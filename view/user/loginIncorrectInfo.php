@@ -1,0 +1,1 @@
+<span class="loginWrongInfo">Invalid username or password</span>

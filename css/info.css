@@ -1,0 +1,400 @@
+.aboutContainer {
+    overflow-y: scroll;
+}
+
+.aboutContainer, .registryContainer {
+    margin: 86px 0 0 30px;/*margin: 100px 0 0 30px; height: 83vh;   naxkin*/
+    padding-top: 14px;
+    color: inherit;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+.registryContainer {
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+/*hide scrollbar*/
+.aboutContainer, .registryRightDiv, .registryLeftDiv, .registryContainer {
+    margin-right: -17px;
+
+}
+.registryRightDiv {
+    width: 74%;
+    float: right;
+    height: 100%;
+    overflow-y: scroll;
+    padding-top: 10px;
+}
+.registryLeftDiv {
+    width: 25%;
+    float: left;
+}
+
+
+
+.aboutContainer a:hover {
+    color: #7cc5de;
+}
+
+
+
+/*.aboutContainer::-webkit-scrollbar-track {*/
+
+/*}*/
+
+/*.aboutContainer::-webkit-scrollbar {*/
+    /*width: 12px;*/
+/*}*/
+
+/*.aboutContainer::-webkit-scrollbar-thumb {*/
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);*/
+    /*background-color: #363636;*/
+/*}*/
+
+h2, h3 {
+    font-size: 100%;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.leftDiv {
+    width: 52%;
+    display: inline-block;
+    float: left;
+}
+.rightDiv {
+    display: inline-block;
+    width: 45%;
+    float: right;
+}
+.secInfo {
+    margin-right: 5px;
+}
+.hor {
+    width: 45%;
+    display: inline-block;
+    margin-right: 4%;
+    vertical-align: top;
+}
+.hor > div {
+    display: inline-block;
+    width: 100%;
+}
+
+.imprint {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.editInfo {
+    position: absolute;
+    top: 1%;
+    left: 26%;
+    z-index: 20;
+    color: black;
+}
+
+.saveTextChangesDiv, .infoDiv {
+    float: left;
+    margin-right: 15px;
+}
+
+.saveTextChangesDiv {
+    margin-right: 40px;
+    position: relative;
+    padding: 11px 6px;
+    background-color: #efefef;
+    border: 1px solid #d6d6d6;
+}
+
+
+.infoDiv {
+    z-index: 20;
+    background-color: #efefef;
+
+}
+.infoDiv table{
+    border-collapse: collapse;
+
+}
+
+i {
+    font-style: italic;
+}
+
+b {
+    font-weight: bold;
+}
+
+.bigRight {
+    width: 49%;
+}
+
+.smallLeft {
+    width: 41%;
+}
+
+img.saveText {
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.editInfo .icons {
+    width: 30px;
+
+}
+
+
+
+
+/**/
+.custom-select {
+    position: relative;
+}
+
+.custom-select select {
+    display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 54%;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #222222 transparent transparent transparent;
+    margin-left: 25%;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #222222 transparent;
+    top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div, .select-selected {
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+}
+
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    top: 100%;
+    left: 0;    
+    right: 0;
+    z-index: 99;
+}
+.select-items div:hover {
+    background-color: transparent!important;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/**/
+
+
+
+
+.yearDiv {
+    margin-top: 60px;
+}
+
+.divInLeftWithPosition, .divForSelect3{
+    margin-top: 70px;
+}
+
+.registryLeftDiv li {
+    cursor: pointer;
+    display: table;
+}
+
+.projectsInRegistry {
+    width: 300px;
+    height: 150px;
+    display: table;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+
+.projectsInRegistry span.titleInRegistry:hover{
+    opacity: 1;
+}
+
+.projectsInRegistry span.title, .projectsInRegistry span.titleInRegistry {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0;
+    -webkit-transition: 0.1s all ease-in;
+    -moz-transition: 0.1s all ease-in;
+    transition: 0.1s all ease-in;
+    cursor: pointer;
+}
+
+
+
+
+.infoSliderImage {
+    position: absolute;
+    background-size: auto 100%;
+    width: 100%;
+    height: 17.5vw;
+    top: 0;
+
+}
+
+td.hasInput label {
+    width: 135px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projectInsightsText {
+    width: 100%;
+    min-height: 400px;
+    padding: 120px 0 80px;
+}
+
+.insightsTextEdit {
+    width: 100%;
+    min-height: 300px;
+}
+
+.aboutDiv.project .topRightWithPAndA span{
+    opacity: 1;
+}
+
+.bgImageDataMainDiv {
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+
+.bgImageDiv {
+    width: 90px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 20px;
+}
+.subDivSizes {
+    display: inline-block;
+    width: 100%;
+}
+.bgImageInfoDiv {
+    width: 50%;
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.editInsightsText {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 130px 0;
+    position: relative;
+}
+
+.wrapperScrollable .editInfo {
+    margin: 0 auto;
+    position: fixed;
+}
+
+.ql-formats {
+    margin: 0!important;
+}
+.ql-toolbar.ql-snow {
+    padding: 0 8px!important;
+    margin: 0!important;
+    width: 100%;
+}
+.ql-formats button, .ql-color, .ql-background, .ql-align {
+    height: 15px!important;
+    padding: 0!important;
+    width: 16px!important;
+}
+.ql-picker-label {
+    padding: 0 !important;
+    border: 0!important;
+}
+a {
+    text-decoration: none!important;
+    cursor: pointer;
+}
+.ql-container {
+    font-size: inherit!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

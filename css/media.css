@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1030px) {
+    body {
+        line-height: 20px;
+    }
+    .allProjectsDiv, .aboutDiv {
+        font-size: 14px;
+    }
+    .aboutContainer, .registryContainer {
+        padding-top: 4px;/*margin: 88px 0 0 30px;*/
+        margin-right: -17px;
+    }
+    .cornerLinks, a.cornerLinks:visited,  a.cornerLinks:active {
+        font-size: 20px;
+    }
+    .topRightWithPAndA span {
+        font-size: 19px;
+    }
+    .topContainer {
+        padding: 16px 30px;
+    }
+    .bottomContainer {
+        padding: 14px 30px 14px;
+    }
+    /*.aboutContainer, .registryContainer {
+        height: 85vh;
+    } naxkin*/
+    .select-selected:after {
+        border-width: 4.5px;
+    }
+
+}
+
+
+
+
+@media only screen  and (max-width: 880px)  {
+    .aboutDiv .rightDiv .carousel {
+        display: none;
+    }
+    .aboutContainer .rightDiv, .aboutContainer .leftDiv {
+        width: 100%;
+    }
+    .bigRight, .smallLeft {
+        width: 45%;
+    }
+    /*.aboutContainer, .registryContainer {
+        height: 85vh;
+    } naxkin*/
+    .divInLeftWithPosition {
+        margin-top:100px;
+    }
+    .divInLeftWithPosition, .divForSelect3 {
+        margin-top: 65px;
+    }
+
+
+}
+
+@media only screen  and (max-width: 430px)  {
+    .topContainer  .bottomRightText{
+        display: inherit;
+    }
+    .topContainer  .bottomRightText, .topContainer  .topLeftText,  .topContainer  .topRightText {
+        float: none;
+        text-align: center;
+    }
+    .bottomContainer{
+        display: none;
+    }
+    .topContainer  .topRightText{
+        margin-top: 30px;
+    }
+    .topContainer  {
+        position: static;
+    }
+    .aboutContainer {
+        margin-top: 0;
+        /*height: 80vh; naxkin*/
+    }
+
+    .divInLeftWithPosition {
+        margin-top:100px;
+    }
+}
+
+@media only screen  and (min-width: 1600px)  {
+    .allProjectsDiv, .aboutDiv {
+        font-size: 21px;
+    }
+    body {
+        line-height: 27px;
+    }
+    .aboutContainer, .registryContainer {
+        padding-top: 26px;/*margin: 110px 0 0 30px;*/
+        margin-right: -17px;
+    }
+    .cornerLinks, a.cornerLinks:visited,  a.cornerLinks:active {
+        font-size: 25px;
+    }
+    .topRightWithPAndA span {
+        font-size: 25px;
+    }
+
+    /*.aboutContainer, .registryContainer {
+        height: 78vh;
+    }   naxkin*/
+    .divInLeftWithPosition {
+        margin-top:100px;
+    }
+
+}

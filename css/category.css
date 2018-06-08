@@ -1,0 +1,28 @@
+th {
+    background-color: #216288;
+    margin: 0;
+    color: #fff;
+}
+
+
+.addNewCat {
+    color: #216288;
+    font-weight: 700;
+}
+
+.catDiv {
+    width: 800px;
+    margin: 40px 40px 120px;
+}
+
+
+.catTable th, .catTable td{
+    padding: 10px;
+    border: 1px solid #acacac;
+}
+
+.catInput {
+    width: 100%;
+    font-size: inherit;
+}
+
